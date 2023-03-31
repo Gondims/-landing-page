@@ -4,7 +4,12 @@ module.exports = {
       "./src/**/*.tsx"
     ],
     theme: {
-      extend: {},
+      extend: {
+        screens: {
+          'xl': '1366px',
+          // => @media (min-width: 1366px) { ... }
+        },
+      },
     },
     plugins: [
       require('@tailwindcss/typography')

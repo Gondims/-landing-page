@@ -3,6 +3,8 @@ import './globals.css'
 
 import { Inter } from 'next/font/google'
 import { Header } from '@/components/Header'
+import { Footer } from '@/components/Footer'
+
 
 
 const inter = Inter({ subsets: ['latin'] })
@@ -22,9 +24,10 @@ export default function RootLayout({
       <body className="bg-[#F5F5F5]">
         <div className="relative h-screen">
           <Header />
-          <div className="py-24 max-w-4xl px-8 mx-auto">
+          <div>
             {children}
           </div>
+          <Footer />
         </div>
       </body>
     </html>
