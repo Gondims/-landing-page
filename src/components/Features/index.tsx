@@ -1,5 +1,6 @@
 import Image from 'next/image'
-import CompFeaturesCard from './micro-components/CompFeaturesCard'
+import CompFeaturesCard from './CompFeaturesCard'
+
 
 
 export default function SectionFeatures() {

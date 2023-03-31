@@ -1,6 +1,6 @@
 
 import Image from "next/image";
-import ThreeButtons from "./micro-components/ThreeButtons ";
+import ThreeButtons from "./ThreeButtons ";
 
 
 export default function SectionAbout() {

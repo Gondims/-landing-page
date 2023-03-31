@@ -18,7 +18,7 @@ type ParallaxButtonProps = {
       const index = Math.floor(scrollFraction * contents.length);
       setActiveIndex(index);
     };
-  
+    
     useEffect(() => {
       window.addEventListener('scroll', handleScroll);
       return () => {

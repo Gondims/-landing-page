@@ -1,8 +1,7 @@
 import SectionAbout from "@/components/About";
 import SectionFaq from "@/components/Faq";
 import SectionFeatures from "@/components/Features";
-import SectionFeedback from "@/components/Feedback";
-import { Footer } from "@/components/Footer";
+import SectionFeedback from "@/components/Feedback/Feedback";
 import SectionPerfil from "@/components/Perfil"
 import SectionMethods from "@/components/Methods";
 import SectionSubscribe from "@/components/Subscribe";
