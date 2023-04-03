@@ -15,22 +15,30 @@ export default function SectionFeatures() {
         <CompFeaturesCard 
           imgSrc={"/icons/Features/modules.svg"}
           cardTitle={'Módulos'}
-          cardText={'Um módulo inteiro para te ensinar a construir a sua própria dieta.'}
+          cardText={'Um módulo inteiro para te ensinar a construir a sua própria dieta.'} 
+          size={''} 
+          color={''}        
         />
         <CompFeaturesCard 
           imgSrc={"/icons/Features/classes.svg"}
           cardTitle={'Nossas Aulas'}
-          cardText={'Aulas de mentalidade para identificar suas dificuldades e aprender a superá-las.'}
+          cardText={'Aulas de mentalidade para identificar suas dificuldades e aprender a superá-las.'} 
+          size={''} 
+          color={''}       
         />
         <CompFeaturesCard 
           imgSrc={"/icons/Features/training.svg"}
           cardTitle={'Treinos'}
-          cardText={'Como treinar corretamente, e como extrair o máximo de cada exercícios.'}
+          cardText={'Como treinar corretamente, e como extrair o máximo de cada exercícios.'} 
+          size={''} 
+          color={''}       
         />
         <CompFeaturesCard 
           imgSrc={"/icons/Features/health.svg"}
           cardTitle={'Saúde'}
           cardText={'Problemas Intestinais, diabetes, hipertensão e como superar ou nunca sofrer com esse  problema.'}
+          size={''} 
+          color={''}       
         />
       </ul>
     </section>
